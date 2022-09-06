@@ -1,0 +1,187 @@
+.coursecontainer{
+    position: relative;
+    width: 6.9rem;
+    height: 20rem;
+    margin: 0 auto;
+    background-color: #d8d8a2;
+    overflow: hidden;
+}
+.top{
+    height: .88rem;
+    background-color: antiquewhite;
+}
+.video{
+    height: 4.2rem;
+    background-image: url(../img/1.png);
+    background-size: contain;
+    opacity: 0.66;
+    position: relative;
+}
+.left_video i{
+    color: #FFFFFF;
+    position: absolute;
+    top: .34rem;
+    left: .02rem;
+}
+.right_video i{
+    color: #FFFFFF;
+    position: absolute;
+    top: .34rem;
+    right: .02rem;
+}
+.trysee{
+   width: 2.25rem;
+     /* height: 0.92rem;
+    background-color: #f0f0f0;
+    border-radius: 0.16rem;
+    opacity: 0.39;
+    position: absolute;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    position: relative; 
+}
+.cover{
+    width: 2.25rem;
+    height: 0.92rem;
+    background-color: #f0f0f0;
+    border-radius: 0.16rem;
+    opacity: 0.39;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.trysee img{
+    width: .41rem;
+    height: .41rem;
+    margin-left: .22rem;
+}
+.trysee span{
+    	font-size: 0.28rem;
+    	line-height: 0.42rem;
+    	color: #ffffff;
+        margin-left:.1rem;
+}
+.play{
+    position: relative;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+.title{
+   	border-bottom: solid 0.02rem #999999;
+}
+.title_name{
+    margin-top: .54rem;
+    font-size: 0.34rem;
+    line-height: 0.42rem;
+}
+.title_teacher{
+    	font-size: 0.24rem;
+    	line-height: 0.42rem;
+        margin-top: .41rem;
+}
+.page_view{
+    margin-top: .4rem;
+    	font-size: 0.22rem;
+    	line-height: 0.42rem;
+    	color: #4d4d4d;
+        padding-bottom: .3rem;
+}
+.desc{
+    margin: 0 auto;
+    margin-top: .38rem;
+    width:5.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: .2rem;
+}
+.desc_one{
+    	font-size: 0.3rem;
+    	line-height: 0.42rem;
+    	color: #545454;
+}
+.desc_two{
+    	font-size: 0.32rem;
+    	line-height: 0.42rem;
+    	color: #282828;
+}
+.underline{
+    width: 0.6rem;
+    	height: 0.11rem;
+    	background-image: linear-gradient(173deg, 
+    		#3382ff 0%, 
+    		#00f6ff 100%);
+    	border-radius: 0.06rem;
+}
+.catalogue .text_blue{
+    font-size: 0.26rem;
+     line-height: 0.42rem;
+    color: #3382ff;
+}
+.catalogue p{
+    	font-size: 0.26rem;
+    	line-height: 0.42rem;
+    	color: #484848;
+}
+.catalogue .time{
+   	font-size: 0.22rem;
+   	line-height: 0.42rem;
+   	color: #484848;
+    padding-left: 1.1rem;
+     margin-top: .05rem;
+}
+.catalogue{
+    position: relative;
+}
+.catalogue img{
+    position: absolute;
+    right:0.1rem;
+    top: 0.03rem;
+    width: .37rem;
+    height: .37rem;
+}
+.bottom{
+    width: 6.9rem;
+    position: fixed;
+    bottom: 0;
+    background-color: antiquewhite;
+    padding-top: .4rem;
+    padding-bottom: .8rem;
+    display: flex;
+    align-items: center;
+}
+.bottom img{
+    width: .38rem;
+    height: .38rem;
+}
+.bottom p{
+    	font-size: 0.2rem;
+    	line-height: 0.42rem;
+    	color: #282828;
+}
+.service{
+    margin-left: .06rem;
+}
+.collect{
+    margin-left: .75rem;
+}
+.shopping{
+    position: absolute;
+    right: 0;
+    width: 4.61rem;
+    height: 0.77rem;
+    background-color: #3382ff;
+    border-radius: 0.38rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.shopping span{
+    font-size: 0.36rem;
+    line-height: 0.42rem;
+    color: #ffffff;
+}

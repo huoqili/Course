@@ -1,0 +1,165 @@
+.w {
+    width: 6.87rem;
+    margin: 0 auto;
+}
+
+/* 试看 */
+.proved {
+    width: 7.5rem;
+    height: 4.2rem;
+    overflow: hidden;
+}
+
+.proved .top {
+    /* margin: 0.35rem 0 0 0.34rem; */
+    margin-top: 0.34rem;
+    margin-left: 0.35rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proved .top i {
+    color: #FFF;
+}
+
+.proved .middle {
+    width: 100%;
+    height: 100%;
+}
+.proved .middle .bg{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* .proved .middle div {
+     display: inline-block;
+    margin-top: 0.1rem;
+} */
+.proved .middle img {
+    width: 0.41rem;
+}
+
+.proved .middle h2 {
+    display: inline-block;
+    font-size: 0.28rem;
+    color: #fff;
+}
+
+/* 中字 */
+.middlefont {
+    margin-top: 0.54rem;
+    line-height: 0.6rem;
+}
+
+.middlefont h2 {
+    font-size: 0.34rem;
+}
+
+.middlefont h3 {
+    font-size: 0.24rem;
+}
+
+.middlefont h4 {
+    font-size: 0.22rem;
+}
+
+/* 内容 */
+.content {
+    border-top: solid 0.02rem #313131;
+}
+
+.content .content-top {
+    margin-top: 0.38rem;
+    width: 6.87rem;
+    display: flex;
+    font-size: 0.3rem;
+    justify-content: space-around;
+}
+
+.content .content-top .bluetiao {
+    width: 0.6rem;
+    height: 0.11rem;
+    background-image: linear-gradient(173deg,
+            #3382ff 0%,
+            #00f6ff 100%);
+    border-radius: 0.06rem;
+}
+
+.contentbottom {
+    margin-top: 0.45rem;
+}
+
+.contentbottom-content {
+    margin-top: 0.42rem;
+}
+
+.contentbottom-contentfont {
+    position: relative;
+    font-size: 0.26rem;
+}
+
+.contentbottom-contentfont:hover {
+    color: #3382ff;
+}
+
+.contentbottom-contentfont img {
+    position: absolute;
+    right: 0;
+    width: 0.37rem;
+}
+
+.contentbottom-content .time {
+    margin-top: 0.25rem;
+    margin-left: 1.2rem;
+    font-size: 0.22rem;
+}
+
+/* footer */
+.clear {
+    height: 1.67rem;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    height: 1.67rem;
+    width: 100%;
+}
+
+.footer .w {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.18rem;
+}
+
+.footer .w .small {
+    width: 1.8rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.footer .w img {
+    width: 0.34rem;
+    height: 0.36rem;
+}
+
+.footer .w h2 {
+    font-size: 0.2rem;
+}
+
+.footer .w .buy {
+    width: 4.61rem;
+    height: 0.77rem;
+    background-color: #3382ff;
+    text-align: center;
+    line-height: 0.77rem;
+    border-radius: 0.38rem;
+}
+.footer .w .buy h2 {
+    font-size: 0.36rem;
+    color: #fff;
+}

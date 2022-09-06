@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <style>
+        *{
+            -webkit-tap-highlight-color:transparent ;
+        }
+    </style>
+</head>
+<body>
+<script>
+    let zs = {
+        username:'zs',
+        age:20
+    }
+    let fn = function(value){
+        // console.log(this);
+        console.log(value);
+        console.log(this.username);
+    }
+    // 冒充
+    // fn(1);
+    // fn.call(zs,'call');
+    // fn.apply(zs,['apply'])
+    // fn
+   let f =  fn.bind(zs);
+   f();
+</script>
+</body>
+</html>
